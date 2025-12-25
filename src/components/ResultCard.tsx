@@ -84,16 +84,16 @@ export function ResultCard({
         </p>
 
         <div className="space-y-2 text-gov-sm text-foreground">
-          <p className="font-medium">주택의 경우 취득세(교육세 포함) 세율은</p>
+          <p className="font-medium">주택의 경우 취득세(교육세, 농특세 포함) 세율은</p>
           <ul className="space-y-1 ml-4">
-            <li>• 85㎡ 이하: <span className="font-bold text-primary">2.96%</span></li>
-            <li>• 85㎡ 초과: <span className="font-bold text-primary">3.16%</span></li>
-            <li>• 근린생활시설 및 토지: <span className="font-bold text-primary">3.16%</span></li>
+            <li>• 85㎡ 이하: <span className="font-bold text-primary">2.96%</span> (교육세 포함)</li>
+            <li>• 85㎡ 초과: <span className="font-bold text-primary">3.16%</span> (교육세 및 농특세 포함)</li>
+            <li>• 근린생활시설 및 토지: <span className="font-bold text-primary">3.16%</span> (교육세 및 농특세 포함)</li>
           </ul>
         </div>
 
         <p className="text-gov-sm text-foreground leading-relaxed pt-2 border-t border-info/20">
-          기타 여러 사항에 대한 확인이 필요한 사항이오니<br />
+          다만, 기타 여러 사항에 대한 확인이 필요하오니<br />
           구체적인 내용은 반드시 물건지 '동' 담당자에게 문의하시기 바랍니다.
         </p>
       </div>
